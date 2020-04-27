@@ -16,16 +16,7 @@
 							"script": {
 								"id": "1c32868b-d9e2-48ff-9a7b-568164e236ab",
 								"exec": [
-									"pm.test(\"Status code is 200\", function () {",
-									"    pm.response.to.have.status(201);",
-									"});",
-									"pm.test(\"Body matches string\", function () {",
-									"    pm.expect(pm.response.text()).to.include(\"865234\");",
-									"});",
-									"",
-									"pm.test(\"Successful POST request\", function () {",
-									"    pm.expect(pm.response.code).to.be.oneOf([201,202]);",
-									"});"
+									""
 								],
 								"type": "text/javascript"
 							}
@@ -57,16 +48,7 @@
 							"script": {
 								"id": "97e36b62-c4fb-4c12-907c-dac301facdcf",
 								"exec": [
-									"pm.test(\"Status code is 200\", function () {",
-									"    pm.response.to.have.status(201);",
-									"});",
-									"pm.test(\"Body matches string\", function () {",
-									"    pm.expect(pm.response.text()).to.include(\"865234\");",
-									"});",
-									"",
-									"pm.test(\"Successful POST request\", function () {",
-									"    pm.expect(pm.response.code).to.be.oneOf([201,202]);",
-									"});"
+									""
 								],
 								"type": "text/javascript"
 							}
@@ -164,9 +146,7 @@
 							"script": {
 								"id": "59e07dd4-bfe3-4621-ba2c-a3e1186b6ba3",
 								"exec": [
-									"pm.test(\"Status code is 200\", function () {",
-									"    pm.response.to.have.status(201);",
-									"});"
+									""
 								],
 								"type": "text/javascript"
 							}
@@ -176,12 +156,7 @@
 							"script": {
 								"id": "54eb2aeb-e7d0-4066-b007-3910f67e4388",
 								"exec": [
-									"function random(n) {\r",
-									"    var ranNum = Math.round(Math.random() * n);\r",
-									"    return ranNum;\r",
-									"}\r",
-									"var n = random(100)\r",
-									"postman.setGlobalVariable(\"random\", n);"
+									""
 								],
 								"type": "text/javascript"
 							}
@@ -225,16 +200,7 @@
 							"script": {
 								"id": "ab5de1cc-7b89-4d57-a3cf-446c3a91f127",
 								"exec": [
-									"pm.test(\"Status code is 200\", function () {",
-									"    pm.response.to.have.status(201);",
-									"});",
-									"pm.test(\"Body matches string\", function () {",
-									"    pm.expect(pm.response.text()).to.include(\"865234\");",
-									"});",
-									"",
-									"pm.test(\"Successful POST request\", function () {",
-									"    pm.expect(pm.response.code).to.be.oneOf([201,202]);",
-									"});"
+									""
 								],
 								"type": "text/javascript"
 							}
@@ -244,7 +210,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:7777/product/999",
+							"raw": "http://localhost:7777/product/111",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -252,7 +218,7 @@
 							"port": "7777",
 							"path": [
 								"product",
-								"999"
+								"111"
 							]
 						}
 					},
@@ -266,9 +232,7 @@
 							"script": {
 								"id": "bfbd84dc-e1d4-41f9-8fae-249fd3af9e97",
 								"exec": [
-									"pm.test(\"Status code is 201\", function () {",
-									"    pm.response.to.have.status(201);",
-									"});"
+									""
 								],
 								"type": "text/javascript"
 							}
@@ -312,9 +276,7 @@
 							"script": {
 								"id": "05494479-05d0-4f22-a1cd-0551015de2e1",
 								"exec": [
-									"pm.test(\"Status code is 404\", function () {",
-									"    pm.response.to.have.status(404);",
-									"});"
+									""
 								],
 								"type": "text/javascript"
 							}
@@ -335,7 +297,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t\"name\": \"Alan\",\n\t\"Role\": \"Sr. Programmer\",\n\t\"email\": \"alan@abc.com\"\n}"
+							"raw": ""
 						},
 						"url": {
 							"raw": "http://localhost:7777/product/321",
