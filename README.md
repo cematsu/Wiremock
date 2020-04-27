@@ -8,17 +8,6 @@ WireMock is a simulator for HTTP-based APIs. Some might consider it a service vi
 It enables you to stay productive when an API you depend on doesn't exist or isn't complete. It supports testing of edge cases and failure modes that the real API won't reliably produce. And because it's fast it can reduce your build time from hours down to minutes.
 
 ----------
-How wiremock works
-----------
-
-In this example we're using a stand alone java version of wiremock that will create a mock server locally.
-With wiremock you can create requests through files in the "mappings" folder or you can create the requests through HTTP requests (post)
-
-![Mappings](assets/mappings.PNG "Create mocks with files")
-
-![Create request during runtime](assets/createRequest.PNG "Create mocks during runtime")
-
-----------
 Wiremock Example - Starting wiremock
 ----------
 
@@ -36,6 +25,18 @@ on the command line start wiremock using the command below:
 Wiremock server should be up and running using the port 7777
 
 ![Wiremock started](assets/mappings.PNG "Wiremock Started")
+
+----------
+Creating Mocks
+----------
+
+In this example we're using a stand alone java version of wiremock that will create a mock server locally.
+With wiremock you can create requests through files in the "mappings" folder or you can create the requests through HTTP requests (post)
+
+Create Mocks in the mappings folder
+![Mappings](assets/mappings.PNG "Create mocks with files")
+Create Mocks on runtime
+![Create request during runtime](assets/createRequest.PNG "Create mocks during runtime")
 
 ----------
 Wiremock Example - pre existing mappings
