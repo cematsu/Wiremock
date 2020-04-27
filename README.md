@@ -1,4 +1,4 @@
-![Wiremock](assets/intro.png "Wiremock Intro")
+![Wiremock](assets/intro.PNG "Wiremock Intro")
 
 Wiremock - API Mock Server
 =======
@@ -14,9 +14,9 @@ How wiremock works
 In this example we're using a stand alone java version of wiremock that will create a mock server locally.
 With wiremock you can create requests through files in the "mappings" folder or you can create the requests through HTTP requests (post)
 
-![Mappings](assets/mappings.png "Create mocks with files")
+![Mappings](assets/mappings.PNG "Create mocks with files")
 
-![Create request during runtime](assets/createRequest.png "Create mocks during runtime")
+![Create request during runtime](assets/createRequest.PNG "Create mocks during runtime")
 
 ----------
 Wiremock Example - Starting wiremock
@@ -35,7 +35,7 @@ on the command line start wiremock using the command below:
 
 Wiremock server should be up and running using the port 7777
 
-![Wiremock started](assets/mappings.png "Wiremock Started")
+![Wiremock started](assets/mappings.PNG "Wiremock Started")
 
 ----------
 Wiremock Example - pre existing mappings
@@ -84,7 +84,7 @@ Wiremock Example - Creating a mock on the fly
 ----------
 On postman navigate to the "Mock Management" folder, there you can find examples to create and use mocks on runtime
 
-![Create request during runtime](assets/createRequest.png "Create mocks during runtime")
+![Create request during runtime](assets/createRequest.PNG "Create mocks during runtime")
 
 Wiremock uses HTTP standards so use Post to create requests, Patch or Put to update requests, Get to list the requests and delete to delete requests
 
@@ -109,4 +109,4 @@ To List all mocks
 
 
 For more information please see:
-http://wiremock.org/docs/stubbing/
+See [wiremock/docs](http://wiremock.org/docs/stubbing/)
