@@ -23,7 +23,7 @@ On the command line navigate to the "Wiremock" folder and start wiremock using t
 
 Wiremock server should be up and running using the port 7777
 
-![Wiremock started](assets/mappings.PNG "Wiremock Started")
+![Wiremock started](assets/execution.PNG "Wiremock Started")
 
 ----------
 Creating Mocks
