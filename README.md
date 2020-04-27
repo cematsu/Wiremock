@@ -1,7 +1,7 @@
 ![Wiremock](assets/intro.PNG "Wiremock Intro")
-
+----------
 Wiremock - API Mock Server
-=======
+----------
 
 Mock your APIs for fast, robust and comprehensive testing
 WireMock is a simulator for HTTP-based APIs. Some might consider it a service virtualization tool or a mock server.
@@ -11,14 +11,13 @@ It enables you to stay productive when an API you depend on doesn't exist or isn
 Wiremock Example - Starting wiremock
 ----------
 
-To go through this example follow the steps below
-Create a folder in your computer to store the example files
+To go through this example create a folder in your computer to store the example files.
 Open the command line and navigate to that folder
 run the command below:
 
     git clone https://github.com/cematsu/Wiremock.git
 
-on the command line start wiremock using the command below:
+On the command line navigate to the "Wiremock" folder and start wiremock using the command below:
 
     java -jar wiremock-standalone-2.24.1.jar --port 7777
 
