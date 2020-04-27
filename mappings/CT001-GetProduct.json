@@ -1,0 +1,19 @@
+{
+  "request": {
+    "url": "/product/999",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+    	"name": "Galaxy S9",
+    	"brand": "Samsung",
+    	"region": "EMEA",
+    	"Price": 100.00,
+    	"Id": "999"
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

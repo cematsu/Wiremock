@@ -1,0 +1,15 @@
+{
+  "request": {
+    "url": "/product",
+    "method": "POST"
+  },
+  "response": {
+    "status": 201,
+    "jsonBody": {
+    	"Id": "12345"
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

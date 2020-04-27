@@ -1,0 +1,12 @@
+{
+  "request": {
+    "url": "/product/999",
+    "method": "DELETE"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
